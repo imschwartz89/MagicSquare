@@ -28,45 +28,45 @@ output.txt - output of 3x3 square using " " as separators
 Assumes python3 refers to Python 3 version and python2 refers to Python 2 version.
 <br />(all commands shown in Python3, simply use magicSquare2.py for Python2)
 <br />Running the following bash command displays the accepted argument flags (flags are the same for Python2 and Python3):
-<br />$ python3 magicSquare3.py -h
-<br />usage: magicSquare3.py [-h] [-i I] [-o O] [-s S] [-v]
-
-Attempts to solve a magic square
-
-optional arguments:
-  -h, --help         show this help message and exit
-  -i I, -input I     input file name to bring in own square
-  -o O, -output O    output file name to save solution
-  -s S, -S S         separator value for input file, default is a 'space'
-  -v, -V, --version  show program's version number and exit
+<br />`$ python3 magicSquare3.py -h`
+><br />usage: magicSquare3.py [-h] [-i I] [-o O] [-s S] [-v]
+>
+>Attempts to solve a magic square
+>
+>optional arguments:
+><br />&nbsp;&nbsp;-h, --help         show this help message and exit
+><br />&nbsp;&nbsp;-i I, -input I     input file name to bring in own square
+><br />&nbsp;&nbsp;-o O, -output O    output file name to save solution
+><br />&nbsp;&nbsp;-s S, -S S         separator value for input file, default is a 'space'
+><br />&nbsp;&nbsp;-v, -V, --version  show program's version number and exit
 
 
 For instance if you want to run MagicSquare3.py on 'square4x4.txt', you would run the following command:
-$ python3 magicSquare3.py -i square4x4.txt
+`$ python3 magicSquare3.py -i square4x4.txt`
 
 This will solve the 4x4 in 'square4x4.txt' and display the results on the screen.
 
 However, if you want to use a different separator than " " like "," perhaps. You could run the following command:
-$ python3 magicSquare3.py -i squareComma4x4.txt -s ","
+`$ python3 magicSquare3.py -i squareComma4x4.txt -s ","`
 
 This will solve the 4x4 in 'squareComma4x4.txt' that has "," as a separator in the file. It will display the results on the screen.
 
 If you also want to save the results into a file, you can save the final solve state by using the following command:
-$ python3 magicSquare3.py -i squareComma4x4.txt -o testOutput.txt -s ","
+`$ python3 magicSquare3.py -i squareComma4x4.txt -o testOutput.txt -s ","`
 
 Which will solve the square 'squareComma4x4.txt', then create a file named 'testOutput.txt' and write the final solution to 'testOutput.txt'
 'testOutput.txt' looks like:
-1,15,14,4
-10,11,8,5
-7,6,9,12
-16,2,3,13
+<br />1,15,14,4
+<br />10,11,8,5
+<br />7,6,9,12
+<br />16,2,3,13
 
 
 NOTE: If you get "Cannot solve, too little information.": It means that there is not enough numbers to allow the computer to accurately determine the correct numbers. This program does not currently have guessing capabilities.
 
 
 ## Future Work
-- [] Create a flag to allow user to control if program should wait during display.
-- [] Create a flag to allow user to write steps and final state to a file.
-- [] Create a flag to allow user to specify the output file's separator, so it can be unique from the input file's separator.
-- [] Allow for guessing.
+- [ ] Create a flag to allow user to control if program should wait during display.
+- [ ] Create a flag to allow user to write steps and final state to a file.
+- [ ] Create a flag to allow user to specify the output file's separator, so it can be unique from the input file's separator.
+- [ ] Allow for guessing.
