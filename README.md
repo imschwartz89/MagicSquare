@@ -3,6 +3,7 @@ Python scripts to help solve Magic Squares
 
 ## Background
 Basic info
+
 https://en.wikipedia.org/wiki/Magic_square
 
 http://www.mathematische-basteleien.de/magsquare.htm
@@ -14,21 +15,21 @@ magicSquare3.py - Python 3 version (tested on Python 3.6.8)
 
 ## Miscellaneous Files
 output.txt - output of 3x3 square using " " as separators
-output2.txt - output of 4x4 square using " " as separators
-square4x4.txt - input of an unsolved 4x4 square using " " as separators
-square5x5.txt - input of an unsolved 5x5 square using " " as separators
-squareComma4x4.txt - input of an unsolved 4x4 square using "," as separators
-squareCommaInput.txt - input of an unsolved 3x3 square using "," as separators
-squareInput.txt - input of an unsolved 3x3 square using " " as separators
-testOutputComma.txt - output of 4x4 square using "," as separators
-testSquare.txt - output of 3x3 square using "," as separators
+<br />output2.txt - output of 4x4 square using " " as separators
+<br />square4x4.txt - input of an unsolved 4x4 square using " " as separators
+<br />square5x5.txt - input of an unsolved 5x5 square using " " as separators
+<br />squareComma4x4.txt - input of an unsolved 4x4 square using "," as separators
+<br />squareCommaInput.txt - input of an unsolved 3x3 square using "," as separators
+<br />squareInput.txt - input of an unsolved 3x3 square using " " as separators
+<br />testOutputComma.txt - output of 4x4 square using "," as separators
+<br />testSquare.txt - output of 3x3 square using "," as separators
 
 ## How to Use
 Assumes python3 refers to Python 3 version and python2 refers to Python 2 version.
-(all commands shown in Python3, simply use magicSquare2.py for Python2)
-Running the following bash command displays the accepted argument flags (flags are the same for Python2 and Python3):
-$ python3 magicSquare3.py -h
-usage: magicSquare3.py [-h] [-i I] [-o O] [-s S] [-v]
+<br />(all commands shown in Python3, simply use magicSquare2.py for Python2)
+<br />Running the following bash command displays the accepted argument flags (flags are the same for Python2 and Python3):
+<br />$ python3 magicSquare3.py -h
+<br />usage: magicSquare3.py [-h] [-i I] [-o O] [-s S] [-v]
 
 Attempts to solve a magic square
 
@@ -64,8 +65,8 @@ Which will solve the square 'squareComma4x4.txt', then create a file named 'test
 NOTE: If you get "Cannot solve, too little information.": It means that there is not enough numbers to allow the computer to accurately determine the correct numbers. This program does not currently have guessing capabilities.
 
 
-# Future Work
-- Create a flag to allow user to control if program should wait during display.
-- Create a flag to allow user to write steps and final state to a file.
-- Create a flag to allow user to specify the output file's separator, so it can be unique from the input file's separator.
-- Allow for guessing.
+## Future Work
+- [] Create a flag to allow user to control if program should wait during display.
+- [] Create a flag to allow user to write steps and final state to a file.
+- [] Create a flag to allow user to specify the output file's separator, so it can be unique from the input file's separator.
+- [] Allow for guessing.
