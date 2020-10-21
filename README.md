@@ -42,52 +42,19 @@ http://www.mathematische-basteleien.de/magsquare.htm
 ><br />&nbsp;&nbsp;-v, -V, --version  show program's version number and exit
 
 
-For instance if you want to run **magicSquare3.py** on **square4x4.txt**, you would run the following command:
+<br />For instance if you want to run **magicSquare3.py** on **square4x4.txt**, you would run the following command:
 <br />`$ python3 magicSquare3.py -i square4x4.txt`
 
-This will solve the 4x4 in **square4x4.txt** and display the results on the screen (formatting is different than what is shown):
+This will solve the 4x4 in **square4x4.txt** and display the results on the screen:
 
->Magic Number: 34
-><br /> 1 15  0  4 
-><br />10  0  8  0 
-><br /> 0  0  0 12 
-><br /> 0  2  0 13 
->
-> 1 15 14  4 
-><br />10  0  8  5 
-><br /> 0  0  0 12 
-><br /> 0  2  0 13 
->
-> 1 15 14  4 
-><br />10 11  8  5 
-><br /> 0  0  0 12 
-><br /> 0  2  0 13 
->
-> 1 15 14  4 
-><br />10 11  8  5 
-><br /> 0  6  9 12 
-><br /> 0  2  0 13 
->
-> 1 15 14  4 
-><br />10 11  8  5 
-><br /> 7  6  9 12 
-><br />16  2  3 13 
->
->Solved!
-><br />Solution: 
-><br /> 1 15 14  4 
-><br />10 11  8  5 
-><br /> 7  6  9 12 
-><br />16  2  3 13 
->
->Solution checked and is correct!
+![Image of Results](./magicSquare4x4Test.png)
 
-However, if you want to use a different separator than " " like "," perhaps. You could run the following command:
+<br />However, if you want to use a different separator than " " like "," perhaps. You could run the following command:
 <br />`$ python3 magicSquare3.py -i squareComma4x4.txt -s ","`
 
 This will solve the 4x4 in **squareComma4x4.txt** that has "," as a separator in the file. It will display the results on the screen.
 
-If you also want to save the results into a file, you can save the final solve state by using the following command:
+<br />If you also want to save the results into a file, you can save the final solve state by using the following command:
 <br />`$ python3 magicSquare3.py -i squareComma4x4.txt -o testOutput.txt -s ","`
 
 Which will solve the square **squareComma4x4.txt**, then create a file named ***testOutput.txt*** and write the final solution to ***testOutput.txt***
