@@ -48,7 +48,7 @@ For instance if you want to run **magicSquare3.py** on **square4x4.txt**, you wo
 This will solve the 4x4 in **square4x4.txt** and display the results on the screen (formatting is different than displayed):
 
 >Magic Number: 34
-> 1 15  0  4 
+><br /> 1 15  0  4 
 ><br />10  0  8  0 
 ><br /> 0  0  0 12 
 ><br /> 0  2  0 13 
