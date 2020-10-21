@@ -2,7 +2,7 @@
 Python scripts to help solve Magic Squares
 
 ## Background
-Basic info (Links working on 10/21/2020)
+Basic info (Links last tested on 10/21/2020)
 
 https://en.wikipedia.org/wiki/Magic_square
 
