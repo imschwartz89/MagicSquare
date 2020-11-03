@@ -58,7 +58,7 @@ Which will solve the square **squareComma4x4.txt**, then create a file named ***
 ><br />16,2,3,13
 
 
-*NOTE: If you get* `"Cannot solve, too little information."`*: It means that there is not enough numbers to allow the computer to accurately determine the correct numbers. This script does not currently have guessing capabilities.*
+*NOTE: If you get* `"Cannot solve, too little information."`*: It means that there are not enough numbers to allow the computer to accurately determine the correct numbers. This script does not currently have guessing capabilities.*
 
 
 ## Future Work
